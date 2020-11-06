@@ -1,0 +1,19 @@
+{
+	"name": "online-remote-classroom",
+	"version": "1.0.0",
+	"description": "App to Livestream Classroom Sessions, Automatically Record, and Upload to a File Server",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js"
+	},
+	"author": "Sodavin Chheng",
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.8.2",
+		"socket.io": "^2.3.0"
+	}
+}
