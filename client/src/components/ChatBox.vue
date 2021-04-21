@@ -62,7 +62,7 @@ export default {
 	data() {
 		return {
 			username: '',
-			socket: io('http://10.10.17.72:3000'),
+			socket: io('http://127.0.0.1:3000'),
 			users: [],
 			messages: [],
 			msg: ''
